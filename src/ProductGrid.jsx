@@ -4,10 +4,10 @@ import React from "react";
 const products = [
   { title: "CHANDALIERS", image: "/frontimg/1.jpg", link: "/chandeliers" },
   { title: "PENDANTS LIGHTS", image: "/frontimg/4.jpg", link: "/pendants" },
-  { title: "OUTDOOR LAMPS", image: "frontimg/3.jpg", link: "/outdoor" },
+  { title: "OUTDOOR LAMPS", image: "frontimg/3.jpg", link: "/View-all" },
   { title: "FLOOR LAMPS", image: "/frontimg/2.jpg", link: "/floor" },
   { title: "TABLE LAMPS", image: "/frontimg/5.jpg", link: "/table" },
-  { title: "WALL LIGHTS", image: "/frontimg/6.jpg", link: "/wall" },
+  { title: "WALL LIGHTS", image: "/frontimg/6.jpg", link: "/wall-lamps" },
 ];
 
 export default function ProductGrid() {

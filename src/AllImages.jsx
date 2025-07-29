@@ -25,7 +25,7 @@ export default function AllImages() {
             <img
               src={img.src}
               alt={img.title}
-              className="w-full h-64 object-cover"
+              className="w-90 h-80 object-fill rounded-lg mb-2"
             />
             <h3 className="text-sm mt-2">{img.title}</h3>
             <p className="text-gray-600 text-sm">Rs. {img.price}</p>

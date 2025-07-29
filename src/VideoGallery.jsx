@@ -6,7 +6,7 @@ const videos = [
   { id: 2, src: "/video/vid2.mp4", title: "Lunar Flare Wall Light", price: "₹ 52,500" },
   { id: 3, src: "/video/vid1.mp4", title: "Aurora Marble Wall Light", price: "₹ 18,900" },
   { id: 4, src: "/video/vid2.mp4", title: "Astra Gleam Wall Light", price: "₹ 53,200" },
-  { id: 5, src: "/videos/video5.mp4", title: "Celestial Drop Wall Light", price: "₹ 53,550" },
+  { id: 5, src: "/video/vid1.mp4", title: "Celestial Drop Wall Light", price: "₹ 53,550" },
 ];
 
 export default function VideoCarousel() {

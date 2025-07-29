@@ -2,14 +2,14 @@ import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const images = Array.from({ length: 12 }, (_, i) => ({
+const images = Array.from({ length: 109 }, (_, i) => ({
   id: i + 1,
-  src: `/Birds/image${i + 1}.jpg`,
+  src: `/wallart/image${i + 1}.jpg`,
   title: `Wall Lamp ${i + 1}`,
   price: `₹ ${(Math.random() * 50000 + 2000).toFixed(0)}`
 }));
 
-export default function BirdLampsPreview() {
+export default function WallLampSlider() {
   const scrollRef = useRef(null);
 
   const scroll = (dir) => {
@@ -22,9 +22,11 @@ export default function BirdLampsPreview() {
   return (
     <section className="mt-16 px-8">
       <div className="flex justify-between items-center mb-4">
-        <h2 className="text-2xl font-bold">Birds Lamps</h2>
+        <h2 className="text-2xl font-bold">Wall Lamps</h2>
         {/* ✅ Link to new page */}
-        
+        <Link to="/wall-lamps" className="text-blue-600 hover:underline">
+          View All
+        </Link>
       </div>
 
       <div className="relative">

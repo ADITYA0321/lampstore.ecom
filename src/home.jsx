@@ -23,7 +23,7 @@ export default function Home() {
             <img
               src={img.src}
               alt={img.title}
-              className="w-full h-[300px] object-cover rounded"
+              className="w-full h-[300px]  rounded"
             />
             <h3 className="text-sm mt-2 font-medium">{img.title}</h3>
             <p className="text-gray-600 text-sm">Rs. {img.price}</p>

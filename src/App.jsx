@@ -5,10 +5,12 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import Home from "./Home";
 import AllImages from "./AllImages";
 import ProductGrid from "./ProductGrid";
-import BirdLamps from "./BirdLamps"; // Full gallery
+
 import BirdLampsPreview from "./birdl"; // Preview component
 import "./App.css"; // Assuming you have a CSS file for styles
 import VideoGallery from "./VideoGallery";
+import WallLampSlider from "./WallLamp"; // homepage slider
+import WallLampAll from "./wall-lamps"; // all images page
 
 
 
@@ -79,6 +81,8 @@ function Layout() {
       {isHomePage && <ProductGrid />}
       {isHomePage && <BirdLampsPreview />}
       {isHomePage && <VideoGallery />}
+      {isHomePage && <WallLampSlider />}
+
 
       {/* Main Content */}
       
@@ -91,15 +95,17 @@ function Layout() {
       <Routes>
   <Route path="/" element={<Home />} />
   <Route path="/view-all" element={<AllImages />} />
-  <Route path="/bird-lamps" element={<BirdLamps />} /> 
+  
   <Route path="/bird-lamps-preview" element={<BirdLampsPreview />} />
-
- 
-
-
+  <Route path="/" element={<WallLampSlider />} />
+        <Route path="/wall-lamps" element={<WallLampAll />} />
+  
 
   
       </Routes>
+
+
+  
 
     </div>
   );
