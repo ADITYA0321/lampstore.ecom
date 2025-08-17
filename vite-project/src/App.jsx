@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "r
 import { Toaster } from "react-hot-toast";
 import { useState, useEffect } from "react";
 
-import Home from "./Home";
+import home from "./home";
 import AllImages from "./AllImages";
 import BirdLampsPreview from "./birdl";
 import WallLampAll from "./wall-lamps";
