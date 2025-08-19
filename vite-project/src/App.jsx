@@ -3,18 +3,18 @@ import { Toaster } from "react-hot-toast";
 import { useState, useEffect } from "react";
 
 
-import Home from "./component/Home";
-import AllImages from "./component/AllImages";
-import BirdLampsPreview from "./component/BirdL";
-import WallLampAll from "./component/WallLamps";
-import TableLampAll from "./component/TableLampAll";
-import ProductGrid from "./component/ProductGrid";
-import Img from "./component/Img";
-import VideoGallery from "./component/VideoGallery";
-import WallLampSlider from "./component/WallLamp";
-import TableLampSlider from "./component/TableLamp";
-import Footer from "./component/Footer";
-import Nav from "./component/Nav";
+import Home from "./Component/Home";
+import AllImages from "./Component/AllImages";
+import BirdLampsPreview from "./Component/BirdL";
+import WallLampAll from "./Component/WallLamps";
+import TableLampAll from "./Component/TableLampAll";
+import ProductGrid from "./Component/ProductGrid";
+import Img from "./Component/Img";
+import VideoGallery from "./Component/VideoGallery";
+import WallLampSlider from "./Component/WallLamp";
+import TableLampSlider from "./Component/TableLamp";
+import Footer from "./Component/Footer";
+import Nav from "./Component/Nav";
 
 
 
