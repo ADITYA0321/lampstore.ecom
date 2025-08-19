@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const images = Array.from({ length: 102 }, (_, i) => ({
-  id: i + 1,
+  id: i + 1,  
   src: `/lamp/image-${i + 1}.jpeg`,
   title: `Lamp ${i + 1}`,
   price: Math.floor(Math.random() * 50000) + 10000,

@@ -2,18 +2,23 @@ import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from "r
 import { Toaster } from "react-hot-toast";
 import { useState, useEffect } from "react";
 
-import home from "./home";
-import AllImages from "./AllImages";
-import BirdLampsPreview from "./birdl";
-import WallLampAll from "./wall-lamps";
-import TableLampAll from "./tablelampall";
-import ProductGrid from "./ProductGrid";
-import Img from "./Img";
-import VideoGallery from "./VideoGallery";
-import WallLampSlider from "./WallLamp";
-import TableLampSlider from "./tablelamp";
-import Footer from "./Footer";
-import Nav from "./Nav";
+
+import Home from "./component/Home";
+import AllImages from "./component/AllImages";
+import BirdLampsPreview from "./component/BirdL";
+import WallLampAll from "./component/WallLamps";
+import TableLampAll from "./component/TableLampAll";
+import ProductGrid from "./component/ProductGrid";
+import Img from "./component/Img";
+import VideoGallery from "./component/VideoGallery";
+import WallLampSlider from "./component/WallLamp";
+import TableLampSlider from "./component/TableLamp";
+import Footer from "./component/Footer";
+import Nav from "./component/Nav";
+
+
+
+
 
 import Login from "./account/Login";
 import Register from "./account/Register";
