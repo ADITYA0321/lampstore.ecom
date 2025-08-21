@@ -17,6 +17,7 @@ export default function Register() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    const API_URL = import.meta.env.VITE_API_URL;
 
     // Frontend validation
     if (!form.firstName || !form.lastName || !form.email || !form.password) {
@@ -25,7 +26,7 @@ export default function Register() {
     }
 
     try {
-      const res = await fetch("http://localhost:8000/api/auth/register", {
+      const res = await fetch(`${API_URL}/api/auth/register`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         credentials: "include", // cookies allow
