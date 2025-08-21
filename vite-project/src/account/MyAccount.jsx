@@ -6,6 +6,7 @@ export default function MyAccount({ setIsLoggedIn }) {
   const [user, setUser] = useState(null);
   const [loading, setLoading] = useState(true);
   const navigate = useNavigate();
+  const API_URL = import.meta.env.VITE_API_URL;
 
   useEffect(() => {
     const token = localStorage.getItem("token");
@@ -14,7 +15,7 @@ export default function MyAccount({ setIsLoggedIn }) {
       return;
     }
 
-    fetch("http://localhost:8000/api/auth/me", {
+    fetch(`${API_URL}/api/auth/me`, {
       headers: { Authorization: `Bearer ${token}` },
     })
       .then(async (res) => {
