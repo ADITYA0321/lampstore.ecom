@@ -20,8 +20,8 @@ import Nav from "./Component/Nav";
 
 
 
-import Login from "./account/Login";
-import Register from "./account/Register";
+import Login from "./account/login";
+import Register from "./account/register";
 import MyAccount from "./account/MyAccount";
 
 // ✅ Protected Route wrapper
