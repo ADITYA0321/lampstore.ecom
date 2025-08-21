@@ -24,7 +24,7 @@ export default function TableLampSlider() {
       <div className="flex justify-between items-center mb-4">
         <h2 className="text-2xl font-bold">Table Lamps</h2>
         {/* ✅ Link to new page */}
-        <Link to="/tablelampall" className="text-blue-600 hover:underline">
+        <Link to="/TableLampAll" className="text-blue-600 hover:underline">
           View All
         </Link>
       </div>
